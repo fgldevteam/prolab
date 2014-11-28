@@ -1,0 +1,67 @@
+@import 'font-awesome.css';
+
+#videotools{
+	display: block;
+	padding: 0; margin: 0;
+	margin: 20px 0px 10px 0px;
+	width: 640px;
+
+	padding: 5px;
+	clear: both;
+}
+	#addtags{
+		float: right;
+	}
+
+#player_api, object{
+	z-index: 0 !important;
+}
+
+.rating {
+	position: relative;
+	right: 35px;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	display: inline;
+	padding: 0px 20px 0px 0px;
+	font-size: 20px;
+}
+
+.rating label{
+	direction: ltr;
+	padding: 0px; margin: 0px;
+	padding-right: 5px;
+	position: relative;
+
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.media-grid li{
+	
+}
+
+.media-grid li a:hover{
+	text-decoration: none;	
+}
+
+.media-grid li p{
+	padding-top: 5px;
+	color: #333;
+	width: 180px;
+}
+
+.resulttext{
+	margin: 5px 20px;
+	float: left;
+	position: relative;
+	width: 400px;
+}

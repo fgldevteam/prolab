@@ -1,7 +1,9 @@
-/bootstrap/compiled.php
-/vendor
-composer.phar
-composer.lock
+*.mp4
+*.mov
+*.flv
+*.wmv
+bfg.jar
+assets/video/**
 .env.*.php
 .env.php
 .DS_Store
